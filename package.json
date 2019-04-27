@@ -1,0 +1,41 @@
+{
+  "name": "material-fixed-theme",
+  "displayName": "Material Fixed",
+  "description": "A theme because I wanted to change something about the material theme",
+  "version": "0.0.1",
+  "publisher": "jeff-hykin",
+  "license": "MIT",
+  "author": "Jeff Hykin",
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "VSCode",
+    "Themes"
+  ],
+  "activationEvents": [
+    "*"
+  ],
+  "main": "theme.json",
+  "contributes": {
+    "themes": [
+      {
+        "label": "Material Fixed High Contrast",
+        "path": "./theme.json",
+        "uiTheme": "vs-dark"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jeff-hykin/vsc-material-theme.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jeff-hykin/vsc-material-theme/issues"
+  },
+  "homepage": "https://github.com/jeff-hykin/vsc-material-theme#readme"
+}
