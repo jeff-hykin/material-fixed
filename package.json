@@ -2,7 +2,7 @@
   "name": "material-fixed-theme",
   "displayName": "Material Fixed",
   "description": "A theme because I wanted to change something about the material theme",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "publisher": "jeff-hykin",
   "license": "MIT",
   "author": "Jeff Hykin",
@@ -31,6 +31,11 @@
       {
         "label": "Material Fixed High Contrast",
         "path": "./high-contrast-theme.json",
+        "uiTheme": "vs-dark"
+      },
+      {
+        "label": "Material Fixed Palenight High Contrast",
+        "path": "./high-contrast-palenight-theme.json",
         "uiTheme": "vs-dark"
       }
     ]
