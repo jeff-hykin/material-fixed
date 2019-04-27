@@ -120,7 +120,6 @@
       "name": "Tag",
       "scope": [
         "entity.name.tag",
-        "meta.tag.sgml",
         "markup.deleted.git_gutter"
       ],
       "settings": {
@@ -131,7 +130,6 @@
       "name": "Function, Special Method",
       "scope": [
         "entity.name.function",
-        "meta.function-call",
         "variable.function",
         "support.function",
         "keyword.other.special-method"
@@ -216,7 +214,6 @@
         "support.type",
         "support.class",
         "support.orther.namespace.use.php",
-        "meta.use.php",
         "support.other.namespace.php",
         "markup.changed.git_gutter",
         "support.type.sys-types"
